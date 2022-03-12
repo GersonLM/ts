@@ -1,30 +1,18 @@
 .inicio__container {
-    position: relative;
-    width: 1512px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    top: 235px;
-    /* background-color: rgba(0, 255, 255, 0.226); */
+    max-width: 1267px;
+    border: solid 1px greenyellow;
+    margin:  auto;
 }
 
-.container {
-    width: 123px;
-    height: 100px;
-    background-color: #252525;
-    position: relative;
-    top: -500;
-    right: 633px;
-
+.container__posicion {
+    display: flex;
 }
 
 .image img {
     width: 638px;
     height: 600px;
-    margin-top: -87px;
-    margin-right: -10px;
+    margin-top: -102px;
+    margin-left: -62px;
     background-repeat: no-repeat;
     background-position: center;
     /* background-color: #25252538; */
@@ -38,7 +26,7 @@
     font-size: 65px;
     line-height: 97px;
     color: #252525;
-    margin-left: 122px;
+    /* margin-left: 122px; */
 
 }
 
@@ -52,12 +40,11 @@
     color: #252525;
     opacity: 0.6;
     margin-top: 17px;
-    margin-left: 122px;
 }
 
 .search {
+    display: flex;
     margin-top: 84px;
-    margin-left: 122px;
 }
 
 button {
@@ -70,9 +57,10 @@ button {
     font-weight: 600;
     line-height: 36px;
     border-radius: 10px;
+    border: none;
 }
 
-input {
+.search input {
     margin-left: 19px;
     width: 395px;
     height: 76px;
@@ -87,13 +75,6 @@ input {
     font-weight: normal;
     line-height: 30px;
 }
-
-.prueba {
-    background-color: red;
-}
-
-
-
 
 
 
