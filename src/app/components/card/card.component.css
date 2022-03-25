@@ -1,22 +1,30 @@
 .card__container {
-  max-width: 1267px;
-  height: 325px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
   padding: 41px 53px ;
+  font-family: 'Poppins', sans-serif;
+}
+mat-card {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1267px;
+  height: 325px;
 }
 
 .card__icon {
   width: 111px;
   height: 111px;
-  border-radius: 50px;
+  border-radius: 60px;
   background-color: #F2FAFA;
 }
 
 .card__title {
+  padding: 0;
+  margin: 0;
   width: 238px;
   height: 45px;
   font-style: normal;
@@ -25,10 +33,12 @@
   line-height: 45px;
   color: #252525;
   text-align: center;
-  margin-top: 15pxS;
+  margin-top: 13px;
 }
 
 .card__info {
+  padding: 0;
+  margin: 0;
   width: 305px;
   height: 72px;
   font-style: normal;
@@ -37,11 +47,20 @@
   line-height: 36px;
   text-align: center;
   color: #9d9d9d;
+  
 }
 
 .card__info--posicion {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
+
+/* .con {
+  background-color: #c91c1c;
+  width: 300px;
+  height: 172px;
+  margin-top: 100px;
+} */

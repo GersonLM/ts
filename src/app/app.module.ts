@@ -12,6 +12,9 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './components/card/card.component';
+import { FindTheBestComponent } from './components/find-the-best/find-the-best.component';
+import { RecentlyPostedComponent } from './components/recently-posted/recently-posted.component';
+import { CategoryComponent } from './components/category/category.component';
 
 
 
@@ -20,7 +23,10 @@ import { CardComponent } from './components/card/card.component';
     AppComponent,
     InicioComponent,
     NavComponent,
-    CardComponent
+    CardComponent,
+    FindTheBestComponent,
+    RecentlyPostedComponent,
+    CategoryComponent
 
   ],
   imports: [

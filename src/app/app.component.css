@@ -1,18 +1,19 @@
-.container {
-    max-width: 1512px;
-    border: solid 1px red;
-    margin: 0 auto;
-}
-
 .fondo {
     background-image: url("../assets/images/FondoInicio.png") ;
-    height: 981px;
+    width: 100%;
+    min-height: 953px;
+    max-height: 953px;
+    background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
+    position: absolute;
 }
 
-.nav {
-    margin-top: 51px;
+.container {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding-top: 51px;
+    position: relative;
 }
 
 .inicio {
@@ -20,6 +21,11 @@
 }
 
 .card {
-    margin-top: 102px;
-    margin-bottom: 100px;
+    /* margin-top: 113px; */
+    margin-bottom: 176px;
+}
+
+.recenttly-posted {
+    margin-top: 176px;
+    margin-bottom: 176px;
 }
