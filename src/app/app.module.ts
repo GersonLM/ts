@@ -15,6 +15,7 @@ import { CardComponent } from './components/card/card.component';
 import { FindTheBestComponent } from './components/find-the-best/find-the-best.component';
 import { RecentlyPostedComponent } from './components/recently-posted/recently-posted.component';
 import { CategoryComponent } from './components/category/category.component';
+import { PortfoliosComponent } from './components/portfolios/portfolios.component';
 
 
 
@@ -26,7 +27,8 @@ import { CategoryComponent } from './components/category/category.component';
     CardComponent,
     FindTheBestComponent,
     RecentlyPostedComponent,
-    CategoryComponent
+    CategoryComponent,
+    PortfoliosComponent
 
   ],
   imports: [
