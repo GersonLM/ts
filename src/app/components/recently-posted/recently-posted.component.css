@@ -38,14 +38,25 @@
 .arrows__container {
     display: flex;
     align-items: center;
+    width: 149px;
+    justify-content: space-between;
 }
 
+.fill {
+    fill :#1E88E5
+}
+.fillHover {
+    fill :#ffffff
+}
 .arrow {
     width: 62px;
     height: 62px;
     background-color: #ffffff;
     border-radius: 60px;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow:hover {

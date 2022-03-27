@@ -20,6 +20,9 @@ mat-card {
   height: 111px;
   border-radius: 60px;
   background-color: #F2FAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__title {

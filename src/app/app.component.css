@@ -1,6 +1,7 @@
 .fondo {
     background-image: url("../assets/images/FondoInicio.png") ;
     width: 100%;
+    min-width: 350px;
     min-height: 953px;
     max-height: 953px;
     background-size: cover;
@@ -28,4 +29,9 @@
 .recenttly-posted {
     margin-top: 176px;
     margin-bottom: 176px;
+}
+
+.portfolio {
+    margin-top: 186px;
+    margin-bottom: 168px;
 }

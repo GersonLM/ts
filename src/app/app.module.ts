@@ -16,6 +16,8 @@ import { FindTheBestComponent } from './components/find-the-best/find-the-best.c
 import { RecentlyPostedComponent } from './components/recently-posted/recently-posted.component';
 import { CategoryComponent } from './components/category/category.component';
 import { PortfoliosComponent } from './components/portfolios/portfolios.component';
+import { NewsletterSubscriptionComponent } from './components/newsletter-subscription/newsletter-subscription.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -28,7 +30,9 @@ import { PortfoliosComponent } from './components/portfolios/portfolios.componen
     FindTheBestComponent,
     RecentlyPostedComponent,
     CategoryComponent,
-    PortfoliosComponent
+    PortfoliosComponent,
+    NewsletterSubscriptionComponent,
+    FooterComponent
 
   ],
   imports: [
