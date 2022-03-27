@@ -158,3 +158,19 @@ mat-card-actions p {
 mat-card-actions a {
     color: #1E88E5;
 }
+
+
+@media all and (max-width: 400px) {
+    .container {
+        margin: 0px auto;
+        width: 380px;
+    }
+    .card__container {
+        margin-top: 75px;
+        width: 380px;
+        min-height: 421px;
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+}

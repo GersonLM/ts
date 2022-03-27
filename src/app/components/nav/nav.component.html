@@ -2,7 +2,7 @@
 
     <img class="nav--logo" src="../../../assets/images/logo.png" alt="Logo">
 
-    <div class="menu">
+    <div class="menu" *ngIf="mostrarMenuNormal">
         <div class="nav--menu">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -16,4 +16,17 @@
             <a href="#">Post a project</a>
         </div>
     </div>
+    <button *ngIf="mostrarBoton" (click)="mostrarMenu()">Menu</button>
 </mat-toolbar>
+
+
+<div class="menu__resposive mat-elevation-z6 " *ngIf="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Find work</a></li>
+        <li><a href="#">Find Freelancers</a></li>
+        <li><a href="#">Log In</a></li>
+        <li><a href="#">Sing Up</a></li>
+        <li> <a class="end" href="#">Post a project</a></li>
+    </ul>
+</div>

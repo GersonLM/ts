@@ -35,3 +35,11 @@
     margin-top: 186px;
     margin-bottom: 168px;
 }
+
+@media all and (max-width: 1314px) { 
+    .container {
+       padding-left: 15px;
+       padding-right: 15px;
+      }
+ }
+

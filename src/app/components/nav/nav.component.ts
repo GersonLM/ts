@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  public menu: boolean = false;
+  public mostrarMenuNormal: boolean = true;
+  public mostrarBoton: boolean = false
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  mostrarMenu(){
+    this.menu = !this.menu
   }
 
 }
