@@ -1,43 +1,20 @@
 .card__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
-  padding: 41px 53px ;
   font-family: 'Poppins', sans-serif;
-}
-mat-card {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  max-width: 1267px;
-  min-height: 325px;
+  width: 345px;
+  min-width: 320px;
+  padding: 20px;
 }
 
-.card__icon {
-  width: 111px;
-  height: 111px;
-  border-radius: 60px;
-  background-color: #F2FAFA;
+.card__info--posicion {
+  /* height: 243px;s */
+  width: 305px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-
-.card__title {
-  padding: 0;
-  margin: 0;
-  width: 238px;
-  height: 45px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
-  color: #252525;
   text-align: center;
-  margin-top: 13px;
+  margin: 28px auto;
 }
 
 .card__info {
@@ -51,20 +28,74 @@ mat-card {
   line-height: 36px;
   text-align: center;
   color: #9d9d9d;
-  
 }
 
-.card__info--posicion {
-  padding: 0;
-  margin: 0;
+.card__icon {
+  width: 111px;
+  height: 111px;
+  border-radius: 60px;
+  background-color: #F2FAFA;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-/* .con {
-  background-color: #c91c1c;
-  width: 300px;
-  height: 172px;
-  margin-top: 100px;
-} */
+
+
+.card__title {
+  padding: 0;
+  margin: 0;
+  width: 238px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #252525;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media all and (min-width: 700px) { 
+ .card__container {
+  width: 500px;
+ }
+}
+
+@media all and (min-width: 800px) { 
+  .card__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+    width: 750px;
+
+  }
+
+  .card__info--posicion {
+    padding-top: 0px;
+    margin: 0px;
+    margin-bottom: 30px
+  }
+
+}
+
+@media all and (min-width: 1100px) { 
+  .card__container {
+    height: 325px;
+    width: 90vw;
+    max-width: 1267px; 
+  }
+
+  .card__info--posicion {
+    margin-bottom: 0px
+  }
+  
+  /* .con {
+    background-color: #c91c1c;
+    width: 300px;
+    height: 172px;
+    margin-top: 100px;
+  } */
+}

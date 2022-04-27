@@ -1,47 +1,51 @@
 .new-subscription__container {
     width: 100%;
-    height: 561px;
+    min-height: 450px;
+    max-height: 561px;
     background-image: url("../../../assets/images/fondo-new-subscription.png");
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.new-subscription__info{
+    width: 90%;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 86px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 45px;
 }
 
 .info h2 {
     margin: 0px;
     padding: 0px;
-    width: 667px;
-    height: 84px; 
+    max-width: 667px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 56px;
-    line-height: 84px;
+    font-size: 1.8rem;
+    line-height: 60px;
     color: #252525;
 }
 
 .info p {
     margin: 0px;
     padding: 0px;
-    width: 800px;
-    height: 36px; 
+    max-width: 800px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1rem;
+    line-height: 28px;
     color: #9D9D9D;
 }
 
 form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,8 +54,10 @@ form {
 input {
     margin: 0px;
     padding: 0px;
-    width: 662px;
-    height: 76px;
+    width: 90%;
+    min-width: 350;
+    max-width: 662px;
+    height: 60px;
     border: none;
     outline: none;  
     background: #FFFFFF;
@@ -61,22 +67,67 @@ input {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 30px;
     color: #9D9D9D;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
+    
 }
 
 button {
     background-color: #1E88E5;
     color: #ffffff;
-    width: 300px;
-    height: 76px;
-    font-size: 24px;
+    width: 250px;
+    min-width: 200px;
+    height: 60px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 36px;
     border-radius: 10px;
     border: none;
     font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+@media all and (min-width: 850px){
+
+
+    .info {
+        margin-top: 86px;
+        margin-bottom: 70px;
+    }
+    .info h2 {
+        /* width: 667px; */
+        height: 84px; 
+        font-size: 56px;
+        line-height: 84px;
+    }
+    
+    .info p {    
+        height: 36px; 
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+
+    
+    input { 
+        width: 662px;
+        height: 76px;   
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    button {
+        width: 300px;
+        height: 76px;
+        font-size: 24px;
+
+        line-height: 36px;
+
+    }
+    
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-nav',
@@ -6,17 +8,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  public menu: boolean = false;
-  public mostrarMenuNormal: boolean = true;
-  public mostrarBoton: boolean = false
 
+  public iconMenu = faBars
+  public menuStatus: boolean = false
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  mostrarMenu(){
-    this.menu = !this.menu
+  mostrarMenu(): void {
+    if (!this.menuStatus) {
+      this.menuStatus = true
+    } else {
+      this.menuStatus = false
+    }
   }
 
 }
